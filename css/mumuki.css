@@ -1,0 +1,16 @@
+nav ul{
+        list-style-type: none;
+        overflow: hidden;
+
+}
+
+nav ul li{
+        width: 30%;
+        float: left;
+
+}
+
+nav ul li a{
+            display: block;
+
+}

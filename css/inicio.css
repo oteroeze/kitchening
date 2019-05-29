@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 15px 15px 15px;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+main nav {
+  margin: 15px;
+}
+
+/* Las imagenes son elementos de linea por eso es necesario el display: block */
+.main-header .logo {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  width: 140px;
+}
+
+.main-header .toggle-nav {
+  display: block;
+  background-color: #333;
+  color: white;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  margin:  0 auto 15px;
+}
+
+.main-header .toggle-nav span {
+  font-size: 32px;
+  line-height: 48px;
+
+}
+
+.main-nav {
+  margin-bottom: 30px;
+  display: none;
+}
+
+.main-nav .active {
+  display: block;
+}
+
+.main-nav ul li a, .main-footer ul li a {
+  display: block;
+  height: 50px;
+  margin-bottom: 1px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+  background-color: #333;
+}
+
+.main-nav ul li a:hover, .main-footer {
+  background-color: #666;
+
+}
+
+.banner img {
+  display: none;
+  width: 100%;
+  margin-bottom:30px;
+}
+
+.vip-products {
+  margin-bottom: 30px;
+}
+
+.products {
+  margin: 15px;
+}
+
+.photo-container {
+  position: relative;
+}
+
+.photo {
+  width: 100%;
+}
+
+.special {
+  position: absolute;
+  top: 0;
+  right: 12px;
+}
+
+a.zoom {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+
+
+}
+
+a.more {
+  display: inline-block;
+  background-color: #333;
+  padding: 12px;
+
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: green;
+  }
+
+}
